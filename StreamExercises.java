@@ -36,9 +36,15 @@ public class StreamExercises {
 
   public static void main(String[] args) {
     List<String> list = Arrays.asList("a", "bbb", "cc");
+    List<String> list2 = Arrays.asList("aaa", "bb", "c");
+    List<String> list3 = Arrays.asList("aa", "b", "ccc");
+    List<String> list4 = Arrays.asList("a", "b", "c");
     List<String> emptyList = Arrays.asList();
     System.out.println(longest(list));
     System.out.println(longest(emptyList));
+    System.out.println(longest(list2));
+    System.out.println(longest(list3));
+    System.out.println(longest(list4));
     System.out.println(sumPrimes(3, 3));
     System.out.println(sumPrimes(2, 11));
     System.out.println(sumPrimes(7, 0));
